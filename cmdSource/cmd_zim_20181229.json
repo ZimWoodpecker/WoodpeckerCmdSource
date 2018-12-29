@@ -1,8 +1,8 @@
 {
     "cmds":[
         {
-            "cmdName":"AF抓包",
-            "cmdLines":"l "
+            "cmdName":"AF抓包JSON",
+            "cmdLines":"l AFJSONResponseSerializer responseObjectForResponse:data:error:"
         }
     ]
 }
