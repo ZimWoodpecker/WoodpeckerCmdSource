@@ -2,10 +2,10 @@
     "cmds":[
         {
             "cmdName":"JSON序列化抓包",
-            "cmdLines":"l NSJSONSerialization JSONObjectWithData:options:error:"
+            "cmdLines":"f {;l NSJSONSerialization JSONObjectWithData:options:error:"
         },
         {
-            "cmdName":"AF抓包JSON",
+            "cmdName":"AF JSON抓包",
             "cmdLines":"l AFJSONResponseSerializer responseObjectForResponse:data:error:"
         }
     ]
