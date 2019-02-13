@@ -1,16 +1,16 @@
 {
     "cmds":[
         {
-            "cmdName":"JSON序列化抓包",
-            "cmdLines":"f {;l NSJSONSerialization JSONObjectWithData:options:error:"
+            "cmdName" : "JSON序列化抓包",
+            "cmdLines" : "f {;l NSJSONSerialization JSONObjectWithData:options:error:"
         },
         {
-            "cmdName":"AF JSON抓包",
-            "cmdLines":"f {;l AFJSONResponseSerializer responseObjectForResponse:data:error:"
+            "cmdName" : "AF JSON抓包",
+            "cmdLines" : "f {;l AFJSONResponseSerializer responseObjectForResponse:data:error:"
         },
         {
-            "cmdName":"抓包提取cmdName",
-            "cmdLines":"f {;r (\"cmdName\":\"\\s\\S\");l NSJSONSerialization JSONObjectWithData:options:error:"
+            "cmdName" : "抓包提取cmdName",
+            "cmdLines" : "f {;r (\"cmdName\" : \"\\s\\S\");l NSJSONSerialization JSONObjectWithData:options:error:"
         }
     ]
 }
