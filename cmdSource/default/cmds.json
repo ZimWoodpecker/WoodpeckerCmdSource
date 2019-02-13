@@ -9,8 +9,8 @@
             "cmdLines":"f {;l AFJSONResponseSerializer responseObjectForResponse:data:error:"
         },
         {
-            "cmdName":"AF JSON抓包",
-            "cmdLines":"f {;l NSJSONSerialization JSONObjectWithData:options:error:;r (\"cmdName\":\\S)"
+            "cmdName":"抓包提取cmdName",
+            "cmdLines":"f {;r (\"cmdName\":\"\\s\\S\");l NSJSONSerialization JSONObjectWithData:options:error:"
         }
     ]
 }
