@@ -10,7 +10,7 @@
         },
         {
             "cmdName" : "抓包提取cmdName",
-            "cmdLines" : "f {;r (\"cmdName\" : \"\\s\\S\");l NSJSONSerialization JSONObjectWithData:options:error:"
+            "cmdLines" : "f {;r (\"cmdName\" : \".+\");l NSJSONSerialization JSONObjectWithData:options:error:"
         }
     ]
 }
