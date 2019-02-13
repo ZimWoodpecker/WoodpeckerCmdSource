@@ -10,7 +10,7 @@
         },
         {
             "cmdName":"AF JSON抓包",
-            "cmdLines":"f {;l NSJSONSerialization JSONObjectWithData:options:error:;r \"cmdName\":\\S"
+            "cmdLines":"f {;l NSJSONSerialization JSONObjectWithData:options:error:;r (\"cmdName\":\\S)"
         }
     ]
 }
