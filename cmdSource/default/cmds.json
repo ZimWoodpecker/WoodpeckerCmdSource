@@ -6,7 +6,7 @@
         },
         {
             "cmdName" : "AF JSON抓包",
-            "cmdLines" : "f {;l AFJSONResponseSerializer responseObjectForResponse:data:error:"
+            "cmdLines" : "f {;l AFJSONResponseSerializer responseObjectForResponse:data:error:;k 2 URL"
         },
         {
             "cmdName" : "抓包提取cmdName",
