@@ -5,8 +5,8 @@
             "cmdLines" : "f {;l NSJSONSerialization JSONObjectWithData:options:error:"
         },
         {
-            "cmdName" : "AF JSON抓包",
-            "cmdLines" : "f {;l AFJSONResponseSerializer responseObjectForResponse:data:error:;k 2 URL"
+            "cmdName" : "AF JSON抓包查看URL",
+            "cmdLines" : "l AFJSONResponseSerializer responseObjectForResponse:data:error:;k 2 URL"
         },
         {
             "cmdName" : "抓包提取cmdName",
