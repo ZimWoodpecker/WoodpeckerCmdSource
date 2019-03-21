@@ -13,7 +13,7 @@
             "cmdLines" : "f {;r (\"cmdName\" : \".+\");l NSJSONSerialization JSONObjectWithData:options:error:"
         },
         {
-            "cmdName" : "发送网络请求",
+            "cmdName" : "监听AF发送请求",
             "cmdLines" : "l AFURLSessionManager dataTaskWithRequest:uploadProgress:downloadProgress:completionHandler:"
         }
     ]
