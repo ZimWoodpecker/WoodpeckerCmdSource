@@ -14,7 +14,7 @@
         },
         {
             "cmdName" : "发送网络请求",
-            "cmdLines" : "l NSURLSessionDataTask resume;k 1 originalRequest"
+            "cmdLines" : "l AFURLSessionManager dataTaskWithRequest:uploadProgress:downloadProgress:completionHandler:"
         }
     ]
 }
