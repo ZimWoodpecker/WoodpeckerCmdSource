@@ -11,6 +11,10 @@
         {
             "cmdName" : "抓包提取cmdName",
             "cmdLines" : "f {;r (\"cmdName\" : \".+\");l NSJSONSerialization JSONObjectWithData:options:error:"
+        },
+        {
+            "cmdName" : "发送网络请求",
+            "cmdLines" : "l NSURLSessionTask resume;k 1 originalRequest"
         }
     ]
 }
