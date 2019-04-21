@@ -1,0 +1,16 @@
+{
+    "cmds":[
+        {
+            "cmdName" : "JSON Serialization",
+            "cmdLines" : "f {;l NSJSONSerialization JSONObjectWithData:options:error:"
+        },
+        {
+            "cmdName" : "Listen AF URL",
+            "cmdLines" : "l AFJSONResponseSerializer responseObjectForResponse:data:error:;k 2 URL"
+        },
+        {
+            "cmdName" : "Listen AF sending",
+            "cmdLines" : "l AFURLSessionManager dataTaskWithRequest:uploadProgress:downloadProgress:completionHandler:"
+        }
+    ]
+}
