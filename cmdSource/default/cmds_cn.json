@@ -5,6 +5,10 @@
             "cmdLines" : "f {;l NSJSONSerialization JSONObjectWithData:options:error:"
         },
         {
+            "cmdName" : "监听系统通知",
+            "cmdLines" : "l NSNotificationCenter postNotificationName:object:userInfo:"
+        },
+        {
             "cmdName" : "AF抓包查看URL",
             "cmdLines" : "l AFJSONResponseSerializer responseObjectForResponse:data:error:;k 2 URL"
         },
