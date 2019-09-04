@@ -5,10 +5,6 @@
             "cmdLines" : "f {;l NSJSONSerialization JSONObjectWithData:options:error:"
         },
         {
-            "cmdName" : "NSNotification",
-            "cmdLines" : "l NSNotificationCenter postNotificationName:object:userInfo:"
-        },
-        {
             "cmdName" : "Listen into AF URL",
             "cmdLines" : "l AFJSONResponseSerializer responseObjectForResponse:data:error:;k 2 URL"
         },
