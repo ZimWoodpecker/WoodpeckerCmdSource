@@ -5,11 +5,15 @@
             "cmdLines" : "f {;l NSJSONSerialization JSONObjectWithData:options:error:"
         },
         {
-            "cmdName" : "Listen AF URL",
+            "cmdName" : "NSNotification",
+            "cmdLines" : "l NSNotificationCenter postNotificationName:object:userInfo:"
+        },
+        {
+            "cmdName" : "Listen into AF URL",
             "cmdLines" : "l AFJSONResponseSerializer responseObjectForResponse:data:error:;k 2 URL"
         },
         {
-            "cmdName" : "Listen AF sending",
+            "cmdName" : "Listen into AF sending",
             "cmdLines" : "l AFURLSessionManager dataTaskWithRequest:uploadProgress:downloadProgress:completionHandler:"
         }
     ]
