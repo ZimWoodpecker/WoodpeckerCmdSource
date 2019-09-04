@@ -1,2 +1,2 @@
 # WoodpeckerCmdSource
-Public cmd source for Woodpecker
+Public command source for Woodpecker
