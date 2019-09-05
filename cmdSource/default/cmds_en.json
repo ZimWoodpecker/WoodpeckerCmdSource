@@ -9,6 +9,10 @@
             "cmdLines" : "l AFJSONResponseSerializer responseObjectForResponse:data:error:;k 2 URL"
         },
         {
+            "cmdName":"IdleTimerDisabled",
+            "cmdLines":"l UIApplication setIdleTimerDisabled:"
+        },
+        {
             "cmdName" : "Listen into AF sending",
             "cmdLines" : "l AFURLSessionManager dataTaskWithRequest:uploadProgress:downloadProgress:completionHandler:"
         }
