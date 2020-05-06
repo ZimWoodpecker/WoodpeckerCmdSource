@@ -15,6 +15,10 @@
         {
             "cmdName" : "监听AF发送请求",
             "cmdLines" : "l AFURLSessionManager dataTaskWithRequest:uploadProgress:downloadProgress:completionHandler:"
-        }
+        },
+        {
+            "cmdName" : "ServerRouter抓包",
+            "cmdLines" : "l ServerRouter asURLRequest"
+        },
     ]
 }
